@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   title: "Bitbybit - Decentralized Philanthropy",
   description: "Lock your USDC principal, stream high-yield returns to charities",
   icons: {
-    icon: '/bitbybit DEX logo white.svg',
+    icon: '/bitbybit-logo.svg',
   },
 };
 
