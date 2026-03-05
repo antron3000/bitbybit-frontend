@@ -19,6 +19,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bitbybit - Decentralized Philanthropy",
   description: "Lock your USDC principal, stream high-yield returns to charities",
+  icons: {
+    icon: '/bitbybit-logo.svg',
+  },
 };
 
 export default function RootLayout({
