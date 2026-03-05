@@ -12,7 +12,7 @@ export function Navigation() {
   return (
     <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-[rgb(71,2,241)]/20 px-6 md:px-10 py-4 bg-[rgb(10,10,20)]/50 backdrop-blur-md sticky top-0 z-50">
       <Link href="/" className="flex items-center gap-4 text-white hover:opacity-80 transition-opacity">
-        <img src="/bitbybit-logo.svg" alt="Bitbybit" className="size-8" />
+        <img src="/bitbybit DEX logo white.svg" alt="Bitbybit" className="size-8" />
         <h2 className="text-white text-xl font-bold leading-tight tracking-tight">Bitbybit</h2>
       </Link>
       <div className="flex flex-1 justify-end gap-8">
