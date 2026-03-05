@@ -54,7 +54,7 @@ export default function BitcoinDashboard() {
           transition={{ duration: 0.6 }}
         >
           <div>
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-[rgb(71,2,241)] via-[rgb(254,29,150)] to-[rgb(71,2,241)] bg-clip-text text-transparent">
+            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-500 via-orange-500 to-blue-500 bg-clip-text text-transparent">
               Bitcoin Dashboard
             </h1>
             <p className="text-slate-400 mt-1">Foundation endowment protocol</p>
@@ -69,7 +69,7 @@ export default function BitcoinDashboard() {
 
         {/* MDR Coverage Hero */}
         <motion.div
-          className="bg-gradient-to-r from-[rgb(71,2,241)] to-[rgb(71,2,241)]/60 rounded-2xl p-8 border border-[rgb(71,2,241)]/20 relative overflow-hidden"
+          className="bg-gradient-to-r from-blue-600 to-blue-600/60 rounded-2xl p-8 border border-blue-500/20 relative overflow-hidden"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
@@ -88,7 +88,7 @@ export default function BitcoinDashboard() {
             </div>
             <div className="w-full bg-white/10 rounded-full h-3 mb-3">
               <div 
-                className="bg-gradient-to-r from-emerald-400 to-[rgb(254,29,150)] h-3 rounded-full transition-all"
+                className="bg-gradient-to-r from-blue-400 to-orange-500 h-3 rounded-full transition-all"
                 style={{ width: `${mdrCoverage}%` }}
               ></div>
             </div>
@@ -131,8 +131,8 @@ export default function BitcoinDashboard() {
 
           <div className="bg-white/5 border border-white/10 rounded-xl p-6">
             <div className="flex items-center gap-3 mb-3">
-              <div className="p-2 rounded-lg bg-[rgb(254,29,150)]/10">
-                <Wallet className="w-5 h-5 text-[rgb(254,29,150)]" />
+              <div className="p-2 rounded-lg bg-orange-500/10">
+                <Wallet className="w-5 h-5 text-orange-500" />
               </div>
               <p className="text-xs text-slate-400 uppercase tracking-wider">Daily Yield</p>
             </div>
@@ -142,8 +142,8 @@ export default function BitcoinDashboard() {
 
           <div className="bg-white/5 border border-white/10 rounded-xl p-6">
             <div className="flex items-center gap-3 mb-3">
-              <div className="p-2 rounded-lg bg-[rgb(71,2,241)]/10">
-                <Calendar className="w-5 h-5 text-[rgb(71,2,241)]" />
+              <div className="p-2 rounded-lg bg-blue-500/10">
+                <Calendar className="w-5 h-5 text-blue-500" />
               </div>
               <p className="text-xs text-slate-400 uppercase tracking-wider">Last Distribution</p>
             </div>
@@ -206,7 +206,7 @@ export default function BitcoinDashboard() {
           </p>
           <Link
             href="/bitcoin/tranches"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[rgb(71,2,241)] to-[rgb(254,29,150)] text-white font-bold rounded-xl hover:opacity-90 transition-all shadow-lg shadow-[rgb(254,29,150)]/20"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-orange-500 text-white font-bold rounded-xl hover:opacity-90 transition-all shadow-lg shadow-orange-500/20"
           >
             <PlusCircle className="w-5 h-5" />
             Create New Tranche
