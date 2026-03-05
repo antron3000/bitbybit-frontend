@@ -49,6 +49,16 @@ export function Navigation() {
           >
             Donate
           </Link>
+          <Link 
+            className={`text-sm font-medium leading-normal pb-1 transition-colors ${
+              isActive('/bitcoin') 
+                ? 'text-white border-b-2 border-[rgb(71,2,241)]' 
+                : 'text-slate-300 hover:text-[rgb(71,2,241)]'
+            }`}
+            href="/bitcoin"
+          >
+            Bitcoin
+          </Link>
         </nav>
         <WalletConnect />
       </div>
